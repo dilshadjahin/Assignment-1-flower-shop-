@@ -166,6 +166,7 @@ color: #272727 !important;
 .banner-footer {
     
    margin: 0px 150px;
+   padding: 40px 0px;
 }
 .banner-footer .container{
     
@@ -211,4 +212,134 @@ color: #272727 !important;
     color: #505050;
     font-family: 'Lato', sans-serif;
  }
+
+ /****Sale section css*****/
+
+ .sale{
+    padding-top: 60px;
+    
+ }
+ .sale .sale-sec{
+    background-color: #FEF6F8;
+    
+ }
+ .sale .container{
+    display: flex;
+ }
+ .sale .sale-sec-left{
+    padding: 140px;
+    margin: 0px 120px;
+ }
+ .sale-sec-left h2{
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 16px;
+ }
+ .sale-sec-left span{
+    color: #E55473;
+ }
+ .sale-sec-left p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADA3A5;
+    margin: 18px 0px;
+    margin-right: 86px;
+    line-height: 21px;
+    text-align: center;
+ }
+ .sale-sec-left button{
+    padding: 12px 24px;
+    color: white;
+    background: #E55473;
+    border: none;
+    border-radius: 6px;
+    margin-left: 150px;
+ }
+ .sale-sec-right img{
+    width: 250px;
+    height: auto;
+    padding-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+ }
+
+/*****instagram section css****/
+
+
+.insta-sec {
+    padding:  100px;
+}
+.insta-sec .insta-header{
+    text-align: center;
+}
+.insta-header h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.insta-header p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADA3A5;
+    margin: 14px 0px;
+    line-height: 21px;
+    margin-bottom: 80px;
+}
+.insta-sec .insta-body{
+    display: flex;
+} 
+.insta-1 img{
+    padding: 0px 18px;
+    width: 240px;
+    margin-bottom: 80px;
+}
+.insta-fotter{
+    width: 100%;
+    height: 50vh;
+	background-image: url("../img/Rectangle9.png");
+	background-repeat: no-repeat;
+	background-position : center;
+	background-size: cover;
+}
+.insta-fotter .container{
+    text-align: center;
+    padding: 80px 240px;
+}
+.container h2{
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 16px;
+}
+.container p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADA3A5;
+    margin: 14px 0px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.container .form-content{
+    display: flex;
+    
+}
+.form-content input{
+    width: 420px;
+    height: 25px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.form-content button{
+    padding: 12px 24px;
+    color: white;
+    background: #E55473;
+    border: none;
+    border-radius: 6px;
+    
+}
+    
+
+
+
+
 
